@@ -1,0 +1,16 @@
+create table if not exists routing_factory_meta_history(
+history_date varchar(255) not null,
+serializer_code varchar(255) null,
+adapters_meta varchar(255) null,
+refactor_client varchar(255) null,
+enhanced_flexibility varchar(255) null,
+creational_frameworks char null,
+gui_tool_kits varchar(255) null,
+plugins varchar(255) null,
+plugin_systems varchar(255) null,
+serialization_mode varchar(255) null,
+de_serialization_mode varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint routing_factory_meta_history_pk primary key(history_date));

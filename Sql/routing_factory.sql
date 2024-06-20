@@ -1,0 +1,16 @@
+create table if not exists routing_factory(
+serializer_code varchar(255) not null,
+adapters_meta varchar(255) null,
+factory_code varchar(255) null,
+creator varchar(255) null,
+concrete_creator varchar(255) null,
+product char null,
+concrete_product varchar(255) null,
+tight_coupling varchar(255) null,
+single_responsilbility_model varchar(255) null,
+scalability varchar(255) null,
+limited_concerns varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint routing_factory_pk primary key(serializer_code));
